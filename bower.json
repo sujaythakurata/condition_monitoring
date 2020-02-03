@@ -1,0 +1,19 @@
+{
+  "name": "condition_monitor",
+  "description": "this is a dashboard.",
+  "main": "app.js",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/libs"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
