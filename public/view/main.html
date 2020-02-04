@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>main page</title>
+    <!--- add bootstrap css-->
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
+    <!--- add custom css-->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body ng-app="main" ng-controller="main_controller">
+    <div class="container-fluid main">
+        <div class="row header"></div>
+        <!---pump widget tag-->
+        <pump-app></pump-app>
+    </div>
+
+    <!--- add angular js-->
+    <script src="../libs/angular/angular.min.js"></script>
+    <!--- add main page controller-->
+    <script src="../controller/main_controller.js"></script>
+    <!-- pump widget -->
+    <script src="../component/pump_widget_component.js"></script>
+    <!--add jquery-->
+    <script src="../libs/jquery/dist/jquery.min.js"></script>
+    <!--- add chart js -->
+    <script src="../libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>    
+    <!--- add chart js -->
+    <script src="../libs/chart.js/dist/Chart.min.js"></script>
+</body>
+</html>

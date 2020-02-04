@@ -1,0 +1,62 @@
+.pump-card{
+    margin: .5em 0 0 0;
+}
+.pump-widget{
+    border-radius: 1em;
+    -webkit-box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
+}
+.pump-widget>.card-body>.col:nth-child(3)>hr{
+    border-color: #497dee;
+    border-width: 1px;
+    margin: 0;
+}
+.pump-widget>.card-body{
+    padding:0;
+    position: relative;
+}
+.pump-widget>.card-body>.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding:0;
+}
+.pump-widget>.card-body>.col:nth-child(1)>img{
+    height: 4em;
+    width: 4em;
+}
+.pump-widget>.card-body>.col:nth-child(1)>.title{
+    font-size: 1.6em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.pump-widget>.card-body>.col:nth-child(2)>span{
+    color: #16ff22;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: .5em;
+}
+.pump-widget>.card-body>.col:nth-child(2)>img{
+    height: 4em;
+    width: 4em;
+}
+
+.pump-widget>.card-body>.col:nth-child(3){
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.pump-widget>.card-body>.col:nth-child(3)>p{
+    margin:.2em .2em .2em .3em;
+}
+.pump-widget>.card-body>.vl{
+    height: 6.5em;
+    width: 0;
+    border: 1px solid #497dee;
+    position: absolute;
+    right: 33%;
+    top: 3%;
+}
