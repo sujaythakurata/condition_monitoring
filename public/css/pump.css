@@ -1,11 +1,16 @@
 .pump-card{
     margin: .5em 0 0 0;
 }
+.pump-widget:link, .pump-widget:hover{
+    text-decoration: none;
+    color: #000000;
+}
 .pump-widget{
     border-radius: 1em;
     -webkit-box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
     box-shadow: 3px 2px 13px -8px rgba(0,0,0,0.75);
+    color: #000000;
 }
 .pump-widget>.card-body>.col:nth-child(3)>hr{
     border-color: #497dee;

@@ -9,25 +9,43 @@
     <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.min.css">
     <!--- add custom css-->
     <link rel="stylesheet" href="../css/main.css">
+    <!-- pump css -->
+    <link rel="stylesheet" href="../css/pump.css">
+    <!-- pump_des css-->
+    <link rel="stylesheet" href="../css/pump_des.css">
+    <!-- graph css -->
+    <link rel="stylesheet" href="../css/graph1.css">
+    <link rel="stylesheet" href="../css/graph2.css">
+    <link rel="stylesheet" href="../css/graph3.css">
 </head>
 <body ng-app="main" ng-controller="main_controller">
     <div class="container-fluid main">
         <div class="row header"></div>
-        <!---pump widget tag-->
-        <pump-app></pump-app>
+        <div ng-view></div>
     </div>
 
     <!--- add angular js-->
     <script src="../libs/angular/angular.min.js"></script>
+    <!---angular route-->
+    <script src="../libs/angular-route/angular-route.js"></script>
+    <!--- add pump page controller-->
+    <script src="../controller/pump_controller.js"></script>
+    <!--- add pump_des page controller-->
+    <script src="../controller/pump_des_controller.js"></script>
     <!--- add main page controller-->
     <script src="../controller/main_controller.js"></script>
-    <!-- pump widget -->
-    <script src="../component/pump_widget_component.js"></script>
+    <!-- route js file-->
+    <script src="../route/route.js"></script>
     <!--add jquery-->
     <script src="../libs/jquery/dist/jquery.min.js"></script>
-    <!--- add chart js -->
+    <!--- add bootstrap js -->
     <script src="../libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>    
     <!--- add chart js -->
     <script src="../libs/chart.js/dist/Chart.min.js"></script>
+    <script src="../libs/angular-chart.js/dist/angular-chart.min.js"></script>
+    <!---componet js-->
+    <script src="../component/graph1.js"></script>
+    <script src="../component/graph2.js"></script>
+    <script src="../component/graph3.js"></script>
 </body>
 </html>

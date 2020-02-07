@@ -1,0 +1,59 @@
+.graph3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.graph3>.row:nth-child(3)>.col>.form-group{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1em;
+}
+.graph3>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(1)>label{
+    color: red;
+}
+.graph3>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(2)>label{
+    color: blue;
+}
+.graph3>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(3)>label{
+    color: green;
+}
+.graph3>.row:nth-child(3)>.col>.form-group>.form-check{
+    margin: 0 .5em 0 .5em;
+}
+
+.graph3>.banner>.col{
+    align-items: flex-start;
+    margin:0 1em 0 1em;
+}
+.graph3>.banner>.col:nth-child(1)>.row>.col>img{
+    height: 1em;
+    width: 1em;
+}
+.graph3>.banner>.col:nth-child(1)>.row>.col{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1em;
+}
+.graph3>.banner>.col:nth-child(1)>.row{
+    border: 1px solid;
+    border-radius: .5em;
+}
+.graph3>.banner>.col:nth-child(2)>.row>.col{
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+.graph3>.banner>.col:nth-child(2)>.row>.col:nth-child(1){
+    border-radius: .5em;
+    background-color: #5399e9;
+    color: #ffffff;
+}
+.graph3>.banner>.col:nth-child(2)>.row>.col:nth-child(2){
+    margin-left: -1em;
+    background-color: #e2e4e6;
+    border-radius: .5em;
+}

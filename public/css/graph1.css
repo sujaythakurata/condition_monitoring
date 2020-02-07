@@ -1,0 +1,22 @@
+.graph1{
+    margin-top: 1.5em;
+}
+.graph1>.banner>.col>img{
+    height: 1em;
+    width: 1em;
+}
+.graph1>.banner{
+    border-radius: .5em;
+    border: 1px solid #227df5;
+    width: 70%;
+    margin-left: 6em;
+}
+.graph1>.banner>.col>span{
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: .5em;
+}
+.graph1>.row:nth-child(2)>.col{
+    padding: 0;
+}

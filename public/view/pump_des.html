@@ -1,0 +1,97 @@
+
+<div class="row pump-body" ng-app="pump_des" ng-controller="pump_des_controller">
+    <div class="col col-2 l-menu">
+        <div class="row">
+            <button type="button"  class="col btn btn-outline-secondary data-btn">
+                <img src="../assest/icons/1.png" alt="icon">
+                <span>live data</span>
+            </button>
+            <button type="button"  class="col btn btn-outline-secondary aly-btn">
+                <img src="../assest/icons/2.png" alt="icon">
+                <span>analysis</span>
+            </button>
+        </div>
+        <div class="row ">
+            <div class="col ">
+                <img src="../assest/icons/pump.png" alt="icon">
+                <span>pump 1</span>
+            </div>
+            <div class="col ">
+                <h1>status</h1>
+                <span>operational</span>
+                <img src="../assest/icons/frequency.svg" alt="icon">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">health index</div>
+                </div>
+                <div class="row">
+                    <div class="col"><span>good</span><span>78%</span></div>
+                    <div class= "col"><img src="../assest/icons/health.png" alt="icon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">maintenance</div>
+                </div>
+                <div class="row">
+                    <div class="col"><span>no upcoming maintenance</span></div>
+                    <div class="col"><img src="../assest/icons/m.png" alt="icon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">alerts</div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/w.png" alt="icon"><span>warning temperature</span></div>
+                </div>
+                <div class="row">
+                    <img src="../assest/icons/a.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col m-graph">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/speedometer_half.png" alt="icon"></div>
+                    <div class="col">ax</div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/speedometer_half.png" alt="icon"></div>
+                    <div class="col">ay</div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/speedometer_half.png" alt="icon"></div>
+                    <div class="col">az</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/thermometer.png" alt="icon"></div>
+                    <div class="col">&#8451;</div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="../assest/icons/speedometer.svg" alt="icon"></div>
+                    <div class="col">db</div>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-include="'/view/graph_1.html'">
+        </div>
+    </div>
+    <div class="col r-graph">
+        <div class="row" ng-include="'/view/graph_2.html'">
+        </div>
+        <div class="row" ng-include="'/view/graph_3.html'">
+        </div>
+    </div>
+</div>

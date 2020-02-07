@@ -1,0 +1,49 @@
+.graph2{
+    padding: 0 .1em 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.graph2>.row:nth-child(3)>.col{
+    padding:0;
+}
+.graph2>.row:nth-child(3)>.col>.form-group{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+.graph2>.row:nth-child(3)>.col>.form-group>.form-check{
+    margin: 0 .5em 0 .5em;
+}
+.graph2>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(1)>label{
+    color: red;
+}
+.graph2>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(2)>label{
+    color: blue;
+}
+.graph2>.row:nth-child(3)>.col>.form-group>.form-check:nth-child(3)>label{
+    color: green;
+}
+
+.graph2>.banner{
+    width: 70%;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+.graph2>.banner>.col:nth-child(1){
+    border-radius: .5em;
+    background-color: #5399e9;
+    color: #ffffff;
+}
+.graph2>.banner>.col:nth-child(2){
+    margin-left: -1em;
+    background-color: #e2e4e6;
+    border-radius: .5em;
+}
