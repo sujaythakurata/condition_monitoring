@@ -41,9 +41,26 @@
     border-radius: .5em;
     background-color: #5399e9;
     color: #ffffff;
+    cursor: pointer;
 }
 .graph2>.banner>.col:nth-child(2){
     margin-left: -1em;
     background-color: #e2e4e6;
     border-radius: .5em;
+    cursor: pointer;
 }
+
+/* slider btn */
+
+.graph2>.banner>.slider{
+    width: 52%;
+    height: 3.8vh;
+    border-radius: .5em;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #e2e4e6;
+}
+

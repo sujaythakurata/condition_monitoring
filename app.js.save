@@ -1,0 +1,15 @@
+const se = require('express')();
+//const app = server();
+const path = require("path");
+const port = process.env.PORT || 3000;
+const http = require('http').createServer(server);
+const io = require('socket.io')(http);
+app.use(server.static(path.join(__dirname,"public")));
+
+app.get('/', (req,res)=>{
+    res.sendFile(path.join(__dirname+"/public/view/main.html"));
+});
+io.on("connection", (socket)=>{
+    console.log("a user is connected");
+});
+app.listen(port,()=>{console.log('hello server is running at port '+port)});
